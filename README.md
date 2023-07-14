@@ -1,4 +1,10 @@
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
+## Local development
+
+1. Clone this repo: `git clone git@github.com:recluso/slowride.git`
+2. Start ddev: `ddev start`
+3. Install Composer dependencies: `ddev composer install`
+4. Install Drupal from configuration: `ddev drush si -y --existing-config`
+5. Optionally, log in as user 1: `ddev drush uli`
 
 Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. For

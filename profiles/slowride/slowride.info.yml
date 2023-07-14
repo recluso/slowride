@@ -1,0 +1,4 @@
+name: Slow ride
+type: profile
+version: VERSION
+core_version_requirement: ^8.8 || ^9 || ^10
